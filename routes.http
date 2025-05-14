@@ -1,0 +1,27 @@
+POST http://localhost:4242/videos
+Content-Type: application/json
+
+{
+    "title": "Video1 node",
+    "description": "xomblets",
+    "duration": 140
+}
+
+###
+
+GET http://localhost:4242/videos
+
+###
+
+PUT  http://localhost:4242/videos/969c41ce-3e9c-45c2-be0a-7756d18bec17
+Content-Type: application/json
+
+{
+    "title": "Video2",
+    "description": "xomblets",
+    "duration": 140
+}
+
+###
+
+DELETE   http://localhost:4242/videos/60a36002-86b8-4eca-bf79-1a8956f4c54b
